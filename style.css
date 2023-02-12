@@ -18,14 +18,18 @@ body {
 
 }
 .card {
-    margin: 25vh 10vw;
-    height: 50vh;
-    width: 80vw;
+    margin: 25vh 20vw;
+    height: 60vh;
+    width: 60vw;
     display: flex;
     background-color: var(--White);
     border-radius: 10px;
 }
 figure {
-    position: absolute;
-    top: 10vh; left: 35vw;
+    margin: 0vh 45vw;
+    position: relative;
+    top: 20vh;
+}
+.calc {
+    display: block;
 }
