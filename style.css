@@ -13,7 +13,7 @@
 --White: hsl(0, 0%, 100%);
 }
 body {
-    background-color: var(--StrongCyan);
+    background-color: var(--LightGrayishCyan);
     font-family:     'Space Mono', monospace;
 
 }
@@ -32,4 +32,12 @@ figure {
 }
 .calc {
     display: block;
+    margin: 1em;
+    padding: .5em;
+}
+.result {
+    background-color: var(--VeryDarkCyan);
+    margin: 1em;
+    padding: .5em;
+    border-radius: 10px;
 }
