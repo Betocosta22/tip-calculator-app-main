@@ -43,3 +43,6 @@ figure {
     border-radius: 10px;
     width: 25vw;
 }
+button {
+    padding: em;
+}
