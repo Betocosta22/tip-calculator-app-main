@@ -34,10 +34,12 @@ figure {
     display: block;
     margin: 1em;
     padding: .5em;
+    width: 25vw;
 }
 .result {
     background-color: var(--VeryDarkCyan);
     margin: 1em;
     padding: .5em;
     border-radius: 10px;
+    width: 25vw;
 }
