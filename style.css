@@ -17,9 +17,13 @@ body {
     font-family:     'Space Mono', monospace;
 
 }
+h4 {
+    margin: 0.5em;
+    color: var(--DarkGrayishCyan);
+}
 .card {
     margin: 25vh 20vw;
-    height: 60vh;
+    height: 80vh;
     width: 60vw;
     display: flex;
     background-color: var(--White);
@@ -44,5 +48,23 @@ figure {
     width: 25vw;
 }
 button {
-    padding: em;
+    padding: .2em 1.8em;
+    margin: .1em; 
+    border: none;
+    background-color: var(--VeryDarkCyan);
+    border-radius: 3px;
+    color: var(--White);
+    font-weight: bold;
+    font-family: 'Space Mono', monospace;
+    font-size: large;
+}
+input {
+    width: 25vw;
+    height: 5vh;
+}
+.select-tip {
+    margin: 3em 0;
+}
+.number-people {
+    margin: 3em 0;
 }
